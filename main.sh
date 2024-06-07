@@ -70,22 +70,6 @@ echo ""
 read -p "$( echo -e "${GRAY}[${NC}${green}ENTER${NC}${GRAY}]${NC} For Starting Installation") "
 echo ""
 clear
-echo ""
-echo -e " ____  ___________        ______ _____ " | lolcat
-echo -e "|  _ \|___ /___ \ \      / /  _ \_   _|_  __ " | lolcat
-echo -e "| |_) | |_ \ __) \ \ /\ / /| |_) || | \ \/ / " | lolcat
-echo -e "|  _ < ___) / __/ \ V  V / |  _ < | |  >  < " | lolcat
-echo -e "|_| \_\____/_____| \_/\_/  |_| \_\|_| /_/\_\ " | lolcat
-echo -e " _____ _   _ _   _ _   _ _____ _     ___ _   _  ____ " | lolcat
-echo -e "|_   _| | | | \ | | \ | | ____| |   |_ _| \ | |/ ___| " | lolcat
-echo -e "  | | | | | |  \| |  \| |  _| | |    | ||  \| | |  _ " | lolcat
-echo -e "  | | | |_| | |\  | |\  | |___| |___ | || |\  | |_| | " | lolcat
-echo -e "  |_|  \___/|_| \_|_| \_|_____|_____|___|_| \_|\____| " | lolcat
-echo ""
-echo -e " Please Wait...............!!!!!!"
-echo ""
-sleep 1
-clear
 if [ "${EUID}" -ne 0 ]; then
 echo "You need to run this script as root"
 exit 1
